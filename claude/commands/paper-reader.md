@@ -1,3 +1,8 @@
+---
+name: paper-reader
+description: Read research papers using a fixed Q&A framework and output structured answers.
+---
+
 # Paper Reader
 
 Read one or more research papers using a fixed Q&A framework and output structured answers. Use when users say "read this paper", "读一下这篇论文", or ask to summarize/understand papers with background, problem, contributions, method, and experiments.

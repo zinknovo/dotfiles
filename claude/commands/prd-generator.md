@@ -1,3 +1,8 @@
+---
+name: prd-generator
+description: Guide users to clarify requirements and produce a complete PRD (Product Requirement Document) in Markdown.
+---
+
 # PRD Generator
 
 Guide users to clarify requirements and produce a complete PRD (Product Requirement Document) in Markdown. Use when users ask for PRD creation, requirement整理/梳理, or step-by-step需求文档引导 in Chinese or English.
