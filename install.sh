@@ -18,4 +18,14 @@ for f in "$DOTFILES_DIR"/claude/commands/*.md; do
   echo "linked: $target -> $f"
 done
 
+# dotup alias
+ALIAS_LINE="alias dotup='~/.dotfiles/update.sh'"
+ZSHRC="$HOME/.zshrc"
+if [ -f "$ZSHRC" ] && ! grep -qF "$ALIAS_LINE" "$ZSHRC"; then
+  echo "" >> "$ZSHRC"
+  echo "# dotfiles" >> "$ZSHRC"
+  echo "$ALIAS_LINE" >> "$ZSHRC"
+  echo "added dotup alias to .zshrc"
+fi
+
 echo "done!"
